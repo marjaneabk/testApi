@@ -1,0 +1,6 @@
+<ul id="requetesTerlinees">
+
+  @for(utilisateur of requetes.appel_termines | async; track utilisateur.name) {
+  <li> {{utilisateur.name}}</li>
+  }
+</ul>
