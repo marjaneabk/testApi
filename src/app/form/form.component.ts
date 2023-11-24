@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {FormControl} from "@angular/forms";
+import {LaravelApiService} from "../laravel-api.service";
 
 @Component({
   selector: 'app-form',
